@@ -5,7 +5,8 @@ end
 def my_hash
   return {
     :cantelope 3,
-    
+    :pineapple 5,
+    :apple 7
   }
 end
 
