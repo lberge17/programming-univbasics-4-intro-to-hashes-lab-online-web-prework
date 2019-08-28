@@ -5,23 +5,23 @@ end
 
 def my_hash
   hash1 = {
-    :cantelope => 3,
-    :pineapple => 5,
-    :apple => 7
+    cantelope: 3,
+    pineapple: 5,
+    apple: 7
   }
   return hash1
 end
 
 def pioneer
   hash2 {
-    :name => "Grace Hopper"
+    name: "Grace Hopper"
   }
   return hash2
 end
 
 def id_generator
   hash3 {
-    :id => 8
+    id: 8
   }
   return hash3
 end
