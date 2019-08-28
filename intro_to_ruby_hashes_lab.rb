@@ -1,25 +1,29 @@
 def new_hash
-  p {}
+  hash0 = {}
+  return hash0
 end
 
 def my_hash
-  p {
+  hash1 = {
     :cantelope => 3,
     :pineapple => 5,
     :apple => 7
   }
+  return hash1
 end
 
 def pioneer
-  return {
+  hash2 {
     :name => "Grace Hopper"
   }
+  return hash2
 end
 
 def id_generator
-  return {
+  hash3 {
     :id => 8
   }
+  return hash3
 end
 
 def my_hash_creator(key, value)
