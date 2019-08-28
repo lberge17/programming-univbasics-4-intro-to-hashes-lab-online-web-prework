@@ -13,23 +13,24 @@ def my_hash
 end
 
 def pioneer
-  hash2 {
+  hash2 = {
     name: "Grace Hopper"
   }
   return hash2
 end
 
 def id_generator
-  hash3 {
+  hash3 = {
     id: 8
   }
   return hash3
 end
 
 def my_hash_creator(key, value)
-  return {
-    key value
+  hash4 = {
+    key: value
   }
+  return hash4
 end
 
 def read_from_hash(hash, key)
