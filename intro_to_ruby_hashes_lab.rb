@@ -4,21 +4,21 @@ end
 
 def my_hash
   p {
-    :cantelope 3,
-    :pineapple 5,
-    :apple 7
+    :cantelope => 3,
+    :pineapple => 5,
+    :apple => 7
   }
 end
 
 def pioneer
   return {
-    :name "Grace Hopper"
+    :name => "Grace Hopper"
   }
 end
 
 def id_generator
   return {
-    :id 8
+    :id => 8
   }
 end
 
